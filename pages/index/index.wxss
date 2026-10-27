@@ -1,0 +1,120 @@
+.container {
+  padding: 24rpx;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24rpx;
+  color: #4b5563;
+  font-size: 28rpx;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 18rpx;
+  padding: 24rpx;
+  box-shadow: 0 8rpx 24rpx rgba(0, 0, 0, 0.05);
+}
+
+.question {
+  font-size: 34rpx;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.options {
+  margin-top: 24rpx;
+}
+
+.option {
+  border: 2rpx solid #d1d5db;
+  border-radius: 12rpx;
+  padding: 20rpx;
+  margin-bottom: 16rpx;
+  font-size: 30rpx;
+  background: #ffffff;
+}
+
+.option.selected {
+  border-color: #1e88e5;
+  background: #e3f2fd;
+}
+
+.option.correct {
+  border-color: #1b9e3e;
+  background: #e8f5e9;
+}
+
+.option.wrong {
+  border-color: #d93025;
+  background: #ffebee;
+}
+
+.result {
+  margin-top: 8rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 10rpx;
+}
+
+.ok {
+  color: #1b9e3e;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.fail {
+  color: #d93025;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.explanation {
+  color: #4b5563;
+  font-size: 28rpx;
+}
+
+.actions {
+  margin-top: 24rpx;
+  display: flex;
+  gap: 20rpx;
+}
+
+.btn {
+  flex: 1;
+  border-radius: 12rpx;
+  font-size: 30rpx;
+}
+
+.check {
+  background: #1e88e5;
+  color: #ffffff;
+}
+
+.next {
+  background: #0f766e;
+  color: #ffffff;
+}
+
+.finish-card {
+  text-align: center;
+}
+
+.finish-title {
+  display: block;
+  font-size: 38rpx;
+  font-weight: 700;
+}
+
+.finish-score {
+  display: block;
+  font-size: 32rpx;
+  color: #1f2937;
+  margin: 18rpx 0 24rpx;
+}
+
+.restart {
+  background: #7c3aed;
+  color: #ffffff;
+}
